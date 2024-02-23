@@ -5,7 +5,7 @@ import { format } from 'date-fns'
 import { Search } from './_components/search'
 import { BookingItem } from '../components/booking-item'
 import { db } from '../lib/prisma'
-import CardBarbershopItem from '../components/card-barbershopItem'
+import CardBarbershopItem from './_components/card-barbershopItem'
 import { Footer } from '../components/ui/footer'
 
 export default async function Home() {
